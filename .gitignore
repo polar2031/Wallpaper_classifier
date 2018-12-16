@@ -118,3 +118,12 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+.DS_Store
+.idea/codeStyles/
+.idea/dbnavigator.xml
+.idea/encodings.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/wallpaper_classifier.iml
+.idea/workspace.xml
