@@ -73,7 +73,7 @@ if __name__ == '__main__':
     height_option_group = height_option_group.add_mutually_exclusive_group()
     height_option_group.add_argument('-h', type=int, help='Height is equal to H')
     height_option_group.add_argument('-hg', type=int, help='Height is equal to or greater than HG')
-    height_option_group.add_argument('-hl', type=int, help='Height is equal to or greater than HL')
+    height_option_group.add_argument('-hl', type=int, help='Height is equal to or less than HL')
     processing_option_group = parser.add_argument_group(title='Process for matching image(s)')
     processing_option_group = processing_option_group.add_mutually_exclusive_group()
     processing_option_group.add_argument('-mv', type=os.path.realpath, help='Move matched images to MV')
