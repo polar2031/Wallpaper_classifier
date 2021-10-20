@@ -51,7 +51,7 @@ def make_test_func(args):
 
 
 if __name__ == "__main__":
-    img_type_list = [".jpg", ".jpeg", ".png", ".bmp"]
+    img_type_list = ["jfif", ".jpg", ".jpeg", ".png", ".bmp"]
     working_path = os.path.dirname(sys.executable)
     os.chdir(working_path)
     parser = argparse.ArgumentParser(prog="Image classifier", add_help=False)
