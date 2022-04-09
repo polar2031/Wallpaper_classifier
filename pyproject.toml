@@ -6,7 +6,7 @@ authors = ["Kuan-Lun Chen <polar2031@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Pillow = "^9.0.0"
+Pillow = "^9.0.1"
 
 [tool.poetry.dev-dependencies]
 black = "^21.9b0"
